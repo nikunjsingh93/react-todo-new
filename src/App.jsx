@@ -23,7 +23,7 @@ export default function App() {
 
   }
 
-  function c(id, completed) {
+  function toggleTodo(id, completed) {
 
     setTodos(currentTodos => {
       return currentTodos.map(todo => {
